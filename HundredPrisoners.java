@@ -43,28 +43,40 @@ public class HundredPrisoners {
     }
 }
 
-// Repeat 10000 times:
 
-//     Randomly shuffle numbers 1 to 100 into drawers
+// 1. Run the simulation many times
 
-//     For each prisoner:
+// 2. For each simulation:
 
-//         Start with own drawer number
+//       a) Create drawers containing numbers 1–100
 
-//         Open up to 50 drawers:
+//       b) Shuffle the numbers randomly
 
-//             Look at number inside
+//       c) For every prisoner:
 
-//             If own number found:
-//                 success
+//             i) Start by opening the drawer
+//                with the prisoner's own number
 
-//             Else:
-//                 open drawer with that number
+//            ii) Read the card inside
 
-//         If prisoner fails:
-//             whole game fails
+//           iii) If the card matches the prisoner's number:
+//                     prisoner succeeds
 
-//     If all prisoners succeed:
-//         count success
+//            iv) Otherwise:
+//                     open the drawer whose number
+//                     matches the card found
 
-// Print success probability
+//             v) Repeat until:
+//                     - prisoner finds own number
+//                     OR
+//                     - 50 drawers are opened
+
+//            vi) If one prisoner fails:
+//                     simulation fails
+
+//       d) If all prisoners succeed:
+//              count one successful simulation
+
+// 3. Probability =
+//    successful simulations / total simulations
+
