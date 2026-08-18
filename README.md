@@ -1,6 +1,6 @@
 # Java
 
-A collection of small Java programs written while brushing up on the language and solving problems.
+A collection of small Java programs written while brushing up on the language.
 This repository is primarily a collection of small problem solving exercises drawn from:
 - [FreeCodeCamp — Daily Coding Challenge](https://www.freecodecamp.org/learn/daily-coding-challenge/archive)
 - [Rosetta Code](https://www.rosettacode.org/wiki/Rosetta_Code)
